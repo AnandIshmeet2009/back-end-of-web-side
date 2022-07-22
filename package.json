@@ -1,0 +1,31 @@
+{
+  "name": "back-end-of-web-side",
+  "version": "1.0.0",
+  "description": "social media",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnandIshmeet2009/back-end-of-web-side.git"
+  },
+  "author": "ishmeet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnandIshmeet2009/back-end-of-web-side/issues"
+  },
+  "homepage": "https://github.com/AnandIshmeet2009/back-end-of-web-side#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.5",
+    "nodemon": "^1.19.4",
+    "query-string": "^7.1.1",
+    "url-parse": "^1.5.10"
+  }
+}
