@@ -30,11 +30,11 @@ const userSchema = new mongoose.Schema({
         type: Array,
     },
     date: {
-        type: String,
+        type: Date,
         default: new Date,
     },
 })
 
 const Users = mongoose.model('Users', userSchema);
 
-module.exports = Users;
+module.exports = Users
